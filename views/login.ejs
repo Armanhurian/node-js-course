@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <%= docTitle %></title>
+</head>
+<body>
+    <% if(docTitle === 'login'){%> 
+        <form action="/arman" method="POST"><input class="name-input" type="text" name="name"><button class="my-btn" type="submit">submit</button></form>
+    <%} else{ %>
+     <h1>no product</h1>
+    <%}%>    
+</body>
+</html>
